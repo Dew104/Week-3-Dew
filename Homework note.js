@@ -94,3 +94,56 @@
 
 // 5.5 const fToC = f => (f - 32) / 1.8;
 // console.log(fToC(32)); 
+
+// 5.6 const isOdd = n => n % 2 !== 0;
+// console.log(isOdd(7)); 
+
+// 5.7 const difference = (a, b) => Math.abs(a - b);
+// console.log(difference(10, 5)); 
+
+// 5.8 const isPrime = n => n > 1 && [...Array(n).keys()].slice(2).every(i => n % i);
+// console.log(isPrime(7));  
+// console.log(isPrime(0)); 
+
+// 6.1 const prompt = require('prompt-sync')(); 
+
+// let friends = [];
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(`Enter information for friend ${i + 1}:`);
+    
+
+//     let studentID = prompt("Enter student ID: ");
+//     let firstName = prompt("Enter first name: ");
+//     let lastName = prompt("Enter last name: ");
+//     let phoneNumber = prompt("Enter phone number: ");
+    
+
+//     let houseNumber = prompt("Enter house number: ");
+//     let district = prompt("Enter district: ");
+//     let subDistrict = prompt("Enter sub-district: ");
+//     let province = prompt("Enter province: ");
+//     let postalCode = prompt("Enter postal code: ");
+    
+
+//     let friend = {
+//         studentID: studentID,
+//         firstName: firstName,
+//         lastName: lastName,
+//         phoneNumber: phoneNumber,
+//         address: {
+//             houseNumber: houseNumber,
+//             district: district,
+//             subDistrict: subDistrict,
+//             province: province,
+//             postalCode: postalCode
+//         }
+//     };
+
+
+//     friends.push(friend);
+// }
+
+// console.log("\nFriends Information:");
+// console.log(friends);
+
